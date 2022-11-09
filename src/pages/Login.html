@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="format-detection" content="telephone=no">
+  <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport">
+  <title>Software segnalazioni illeciti - Whistleblowing</title>
+  <link rel="stylesheet" href="../stileshyt/stile.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+</head>
+
+<body style="background-color: white;">
+  <div class="pad-480">
+
+    <div class="app-header-top container">
+      <div class="app-brand-wrapper">
+        <a href=""></a>
+        <div class="img-cover"></div>
+      </div>
+    </div>
+
+    <div class="barra-menu">
+      <div class="mobile-menu">
+        <button class="mobile-menu-init">☰</button>
+        <button class="mobile-menu-cross" style="display: none;">˟</button>
+      </div>
+      <div class="menu container">
+        <ul>
+          <li><a href="./Index.html">Home</a></li>
+          <li><a href="./About.html">Cos'è il Whistleblowing</a></li>
+          <li><a href="./More.html">Normativa</a></li>
+          <li><a href="./Faq.html">Faq</a></li>
+          <li><a href="./Login.html">Login Admin</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8" style="margin-left: 16.6%;">
+          <section id="loginForm">
+            <form action="./Login.html" method="post" role="form">
+              <div class="form-group">
+                <label for="UserName">Nome Utente</label>
+                <div><input class="form-control" id="UserName" name="UserName" type="text" value=""></div>
+              </div>
+              <div class="form-group">
+                <label for="Password">Password</label>
+                <div>
+                  <input class="form-control" id="Password" name="Password" type="password">
+                </div>
+              </div>
+              <div class="form-group">
+                <div style="padding-top: 20px;">
+                  <button type="button" onclick="verifica()" value="Log in" class="btn btn-default btn-primary">Log
+                    In</a>
+                </div>
+              </div>
+            </form>
+          </section>
+        </div>
+      </div>
+    </div>
+</body>
+<script>
+  let url = "../Login/Login.html";
+  function verifica() {
+    let user = document.getElementById('UserName');
+    let password = document.getElementById('Password');
+    if (user.value == "Luca" && password.value == "Luca") {
+      window.location.assign(url);
+    } else {
+      alert("Inserire user e password corretti");
+    }
+  }
+</script>
+
+</html>
