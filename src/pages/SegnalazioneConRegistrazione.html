@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex, nofollow">
+    <meta name="format-detection" content="telephone=no">
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport">
+    <title>Software segnalazioni illeciti - Whistleblowing</title>
+    <link rel="stylesheet" href="../stileshyt/stile.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <script type="module" src="../js/moduloReg.js"></script>
+</head>
+
+<body style="background-color: white;" id="corpo">
+    <div class="pad-480">
+
+        <div class="app-header-top container">
+            <div class="app-brand-wrapper">
+                <a href=""></a>
+                <div class="img-cover"></div>
+            </div>
+        </div>
+
+        <div class="barra-menu">
+            <div class="mobile-menu">
+                <button class="mobile-menu-init">☰</button>
+                <button class="mobile-menu-cross" style="display: none;">˟</button>
+            </div>
+            <div class="menu container">
+                <ul>
+                    <li><a href="./Index.html">Home</a></li>
+                    <li><a href="./About.html">Cos'è il Whistleblowing</a></li>
+                    <li><a href="./More.html">Normativa</a></li>
+                    <li><a href="./Faq.html">Faq</a></li>
+                    <li><a href="./Login.html">Login Admin</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="container">
+            <section class="report-container">
+                <h2>Nuova Segnalazione</h2>
+                <div class="form-group">
+                    <div><label class="report-title">Oggetto segnalazione <span style="color:red">*</span></label></div>
+                    <div class="form-group" id="formOggetto">
+                        <input type="text" class="form-control" id="oggettoSegnalazione">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div><label class="report-title">Tipologia segnalazione <span style="color:red">*</span></label>
+                    </div>
+                    <div class="pl-25 fs-13" id="formTipo">
+                        <input name="radioTipoSegnalazione" type="radio" value=1> Anticorruzione<br>
+                        <input name="radioTipoSegnalazione" type="radio" value=2> Codice di comportamento<br>
+                        <input name="radioTipoSegnalazione" type="radio" value=3> Furti / frodi<br>
+                        <input name="radioTipoSegnalazione" type="radio" value=4> Altro<br>
+                    </div>
+                </div>
+
+                <div class="form-group" id="formDescrizione">
+                    <div><label class="report-title ">Descrizione del fatto <span style="color:red">*</span></label>
+                    </div>
+                    <div><textarea id="descrizione" class="form-control" style="min-height: 150px;"></textarea></div>
+                </div>
+
+                <div class="form-group">
+                    <div><label class="report-title ">Data/periodo in cui si è verificato il
+                            fatto <span style="color:red">*</span></label>
+                    </div>
+                    <div class="form-group" id="formPeriodo"><input type="text" class="form-control"
+                            id="periodo"></input></div>
+                </div>
+
+                <div class="form-group">
+                    <div class=" "><label class="report-title ">Sede di servizio</label></div>
+                    <div class="form-group" id="formSede"><input type="text" class="form-control" id="sede"></input>
+                    </div>
+                </div>
+
+                <div class="form-group" id="formLuogo">
+                    <div><label class="report-title">Luogo fisico in cui si è verificato il fatto
+                            <span style="color:red">*</span></label>
+                    </div>
+                    <div class="pl-25 fs-13">
+                        <input name="radioLuogoFisico" type="radio" value=1> IN UFFICIO (indicare denominazione e
+                        indirizzo della struttura)<br>
+                        <input name="radioLuogoFisico" type="radio" value=2> ALL’ESTERNO DELL’UFFICIO (indicare luogo ed
+                        indirizzo)<br>
+                    </div>
+                    <label class="report-title" style="border-bottom:none; font-weight: normal;">Luogo/Denominazione
+                        struttura e indirizzo</label>
+                    <div class="form-group" id="formLuogoFisicoNota"><input type="text" class="form-control"
+                            id="luogoFisicoNota"></input></div>
+                </div>
+
+                <div class="form-group" id="formAzioni">
+                    <div><label class="report-title">Ritengo che le azioni od omissioni commesse o tentate siano
+                            <span style="color:red">*</span></label></div>
+                    <div class="pl-25 fs-13">
+                        <input name="radioAzioni" type="radio" value=1> Penalmente rilevanti<br>
+                        <input name="radioAzioni" type="radio" value=2> Poste in essere in violazione del Codice Etico,
+                        del Regolamento interno aziendale o di altre disposizioni sanzionabili in via disciplinare<br>
+                        <input name="radioAzioni" type="radio" value=3> Suscettibili di arrecare un pregiudizio
+                        patrimoniale<br>
+                        <input name="radioAzioni" type="radio" value=4> Suscettibili di arrecare un pregiudizio alla
+                        immagine<br>
+                        <input name="radioAzioni" type="radio" value=5> Altro<br>
+                    </div><br>
+                    <i class="fs-13">
+                        La segnalazione non riguarda rimostranze di carattere personale del segnalante o richieste che
+                        attengono alla disciplina del rapporto di lavoro o ai rapporti col superiore gerarchico o
+                        colleghi, per le quali occorre fare riferimento alla Direzione del Personale
+                    </i>
+                </div>
+
+                <div class="form-group">
+                    <div><label class="report-title ">Autore/i del fatto <span style="color:red">*</span></label>
+                        <i class="fs-13" style="margin-bottom: 10px; display: block">
+                            Indicare i dati anagrafici se conosciuti e, in caso contrario, ogni altro elemento idoneo
+                            all’identificazione.</i>
+                    </div>
+                    <div class="form-group" id="formAutore"><input type="text" class="form-control" id="autore"></input>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <div><label class="report-title ">Altri eventuali soggetti a conoscenza del fatto e/o in grado di
+                            riferire sul medesimo <span style="color:red">*</span></label>
+                        <i class="fs-13" style="margin-bottom: 10px; display: block">Indicare i dati anagrafici se
+                            conosciuti
+                            e, in caso contrario, ogni altro elemento idoneo all’identificazione</i><br>
+                    </div>
+
+                    <div class="form-group" id="formAltriEventuali">
+                        <textarea class="form-control" style="min-height: 150px;" id="altriEventuali"></textarea>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <div>
+                        <div><label class="report-title ">Eventuali allegati a sostegno della segnalazione</label>
+                            <i class="fs-13" style="margin-bottom: 10px; display: block">[Sei invitato ad allegare
+                                qualsiasi
+                                documentazione o evidenza che possa essere utile a sostenere le tue dichiarazioni]</i>
+                            <div class="pl-25">
+                                <label for="inputdocumento" class="btn btn-selezione"><span>Scegli file</label>
+                                <input style="display: none" title="Aggiungi File" value="Aggiungi file"
+                                    id="inputdocumento" type="file" class="form-control">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="report-title"></div>
+
+                <div>
+                    <div class="form-group" id="formNomeUtente">
+                        <div><label class="RegLabel">Nome*</label></div><br>
+                        <input name="nome" type="text" class="form-control" id="nomeUtente">
+                    </div>
+                    <div class="form-group" id="formCognomeUtente">
+                        <div><label class="RegLabel">Cognome*</label></div><br>
+                        <input name="cognome" type="text" class="form-control" id="cognomeUtente">
+                    </div>
+                    <div class="form-group" id="formTelefonoUtente">
+                        <div><label class="RegLabel">Telefono</label></div><br>
+                        <input name="telefono" type="number" class="form-control" id="telefonoUtente">
+                    </div>
+                    <div class="form-group" id="formEmailUtente">
+                        <div><label class="RegLabel">E-mail*</label></div><br>
+                        <input name="email" type="email" class="form-control" id="emailUtente">
+                    </div>
+                    <div class="form-group">
+                        <div><label class="RegLabel">Qualifica o posizione professionale</label></div><br>
+                        <p><i style="min-width:80px; text-align:left">Qualora il segnalante rivesta la qualifica
+                                di pubblico ufficiale o di incaricato di pubblico servizio, l’invio della
+                                presente segnalazione non lo esonera dall’obbligo di denunciare alla competente
+                                Autorità giudiziaria i fatti penalmente rilevanti e le ipotesi di danno
+                                erariale.</i><br></p>
+                        <input name="qualifica" type="text" class="form-control" id="qualificaUtente">
+                    </div>
+                </div>
+
+                <div class="report-title"></div>
+                <br><br>
+                <div id="formTermini">
+                    <p><input type="checkbox" id="termini"> Dichiaro di aver letto e di accettare i termini
+                        della <a href="" class="accordo">policy e dell’informativa privacy</a>. </p>
+                </div>
+
+                <div>
+                    <p>RICORDA: per il tuo primo accesso dovrai preventivamente attivarle cliccando sul link che
+                        riceverai alla e-mail che hai indicato in alto!</p>
+                </div>
+
+                <input type="button" id="bottone" style="width:150px; text-align:center;" class="btn btn-submit"
+                    value="Invia segnalazione">
+
+            </section>
+
+        </div>
+    </div>
+
+
+    <!-- <script src="../js/conRegistrazione.js"></script> -->
+    <script>
+        var V_oggettoSegnalazione = false;
+        var V_tipoSegnalazione = false;
+        var V_descrizione = false;
+        var V_periodo = false;
+        var V_luogoFisico = false;
+        var V_luogoFisicoNota = false;
+        var V_azioni = false;
+        var V_autore = false;
+        var V_altriEventuali = false;
+        var V_nomeUtente = false;
+        var V_cognomeUtente = false;
+        var V_emailUtente = false;
+        var V_termini = false;
+    </script>
+
+</body>
+
+</html>

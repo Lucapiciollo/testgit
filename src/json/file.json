@@ -1,0 +1,3305 @@
+{
+    "sections": [
+        {
+            "id": 0,
+            "title": {
+                "id": 0,
+                "translations": [
+                    {
+                        "language": "fr-FR",
+                        "value": "Objet de rapport"
+                    },
+                    {
+                        "language": "en-US",
+                        "value": "Report object"
+                    },
+                    {
+                        "language": "it-IT",
+                        "value": "Oggetto segnalazione"
+                    }
+                ],
+                "actions": null,
+                "business": null
+            },
+            "required": true,
+            "orderId": 0,
+            "topLabel": {
+                "id": 0,
+                "translations": [
+                    {
+                        "language": "fr-FR",
+                        "value": ""
+                    },
+                    {
+                        "language": "en-US",
+                        "value": ""
+                    },
+                    {
+                        "language": "it-IT",
+                        "value": ""
+                    }
+                ],
+                "actions": null,
+                "business": null
+            },
+            "bottomLabel": {
+                "id": 0,
+                "translations": [
+                    {
+                        "language": "fr-FR",
+                        "value": ""
+                    },
+                    {
+                        "language": "en-US",
+                        "value": ""
+                    },
+                    {
+                        "language": "it-IT",
+                        "value": ""
+                    }
+                ],
+                "actions": null,
+                "business": null
+            },
+            "elements": [
+                {
+                    "id": 0,
+                    "orderId": 0,
+                    "topLabel": {
+                        "id": 0,
+                        "translations": [
+                            {
+                                "language": "fr-FR",
+                                "value": ""
+                            },
+                            {
+                                "language": "en-US",
+                                "value": ""
+                            },
+                            {
+                                "language": "it-IT",
+                                "value": ""
+                            }
+                        ],
+                        "actions": [
+                            {
+                                "type": "hide",
+                                "elements": null,
+                                "allValues": true
+                            },
+                            {
+                                "type": "show",
+                                "elements": null,
+                                "allValues": true
+                            },
+                            {
+                                "type": "disabled",
+                                "elements": null,
+                                "allValues": true
+                            }
+                        ],
+                        "business": [
+                            {
+                                "type": "rule",
+                                "values": [
+                                    "User"
+                                ]
+                            }
+                        ]
+                    },
+                    "type": "TEXT",
+                    "bottomLabel": {
+                        "id": 0,
+                        "translations": [
+                            {
+                                "language": "fr-FR",
+                                "value": ""
+                            },
+                            {
+                                "language": "en-US",
+                                "value": ""
+                            },
+                            {
+                                "language": "it-IT",
+                                "value": ""
+                            }
+                        ],
+                        "actions": null,
+                        "business": null
+                    },
+                    "placeholder": {
+                        "id": 0,
+                        "translations": [
+                            {
+                                "language": "fr-FR",
+                                "value": ""
+                            },
+                            {
+                                "language": "en-US",
+                                "value": ""
+                            },
+                            {
+                                "language": "it-IT",
+                                "value": ""
+                            }
+                        ],
+                        "actions": null,
+                        "business": null
+                    },
+                    "elements": [
+                        {
+                            "id": 0,
+                            "orderId": 0,
+                            "topLabel": {
+                                "id": 0,
+                                "translations": [
+                                    {
+                                        "language": "fr-FR",
+                                        "value": ""
+                                    },
+                                    {
+                                        "language": "en-US",
+                                        "value": ""
+                                    },
+                                    {
+                                        "language": "it-IT",
+                                        "value": ""
+                                    }
+                                ],
+                                "actions": [
+                                    {
+                                        "type": "hide",
+                                        "elements": null,
+                                        "allValues": true
+                                    },
+                                    {
+                                        "type": "show",
+                                        "elements": null,
+                                        "allValues": true
+                                    },
+                                    {
+                                        "type": "disabled",
+                                        "elements": null,
+                                        "allValues": true
+                                    }
+                                ],
+                                "business": [
+                                    {
+                                        "type": "rule",
+                                        "values": []
+                                    }
+                                ]
+                            },
+                            "type": "",
+                            "bottomLabel": {
+                                "id": 0,
+                                "translations": [
+                                    {
+                                        "language": "fr-FR",
+                                        "value": ""
+                                    },
+                                    {
+                                        "language": "en-US",
+                                        "value": ""
+                                    },
+                                    {
+                                        "language": "it-IT",
+                                        "value": ""
+                                    }
+                                ],
+                                "actions": null,
+                                "business": null
+                            },
+                            "placeholder": {
+                                "id": 0,
+                                "translations": [
+                                    {
+                                        "language": "fr-FR",
+                                        "value": ""
+                                    },
+                                    {
+                                        "language": "en-US",
+                                        "value": ""
+                                    },
+                                    {
+                                        "language": "it-IT",
+                                        "value": ""
+                                    }
+                                ],
+                                "actions": null,
+                                "business": null
+                            },
+                            "elements": null,
+                            "values": [],
+                            "actions": null,
+                            "business": null
+                        }
+                    ],
+                    "values": [],
+                    "actions": null,
+                    "business": null
+                }
+            ],
+            "actions": null,
+            "business": null
+        },
+        {
+            "id": 1,
+            "title": {
+                "id": 0,
+                "translations": [
+                    {
+                        "language": "fr-FR",
+                        "value": "Type de rapport"
+                    },
+                    {
+                        "language": "en-US",
+                        "value": "Report type"
+                    },
+                    {
+                        "language": "it-IT",
+                        "value": "Tipologia segnalazione"
+                    }
+                ],
+                "actions": null,
+                "business": null
+            },
+            "required": true,
+            "orderId": 1,
+            "topLabel": {
+                "id": 0,
+                "translations": [
+                    {
+                        "language": "fr-FR",
+                        "value": ""
+                    },
+                    {
+                        "language": "en-US",
+                        "value": ""
+                    },
+                    {
+                        "language": "it-IT",
+                        "value": ""
+                    }
+                ],
+                "actions": null,
+                "business": null
+            },
+            "bottomLabel": {
+                "id": 0,
+                "translations": [
+                    {
+                        "language": "fr-FR",
+                        "value": ""
+                    },
+                    {
+                        "language": "en-US",
+                        "value": ""
+                    },
+                    {
+                        "language": "it-IT",
+                        "value": ""
+                    }
+                ],
+                "actions": null,
+                "business": null
+            },
+            "elements": [
+                {
+                    "id": 0,
+                    "orderId": 0,
+                    "topLabel": {
+                        "id": 0,
+                        "translations": [
+                            {
+                                "language": "fr-FR",
+                                "value": ""
+                            },
+                            {
+                                "language": "en-US",
+                                "value": ""
+                            },
+                            {
+                                "language": "it-IT",
+                                "value": ""
+                            }
+                        ],
+                        "actions": [
+                            {
+                                "type": "hide",
+                                "elements": null,
+                                "allValues": true
+                            },
+                            {
+                                "type": "show",
+                                "elements": null,
+                                "allValues": true
+                            },
+                            {
+                                "type": "disabled",
+                                "elements": null,
+                                "allValues": true
+                            }
+                        ],
+                        "business": [
+                            {
+                                "type": "rule",
+                                "values": []
+                            }
+                        ]
+                    },
+                    "type": "RADIOGROUP",
+                    "bottomLabel": {
+                        "id": 0,
+                        "translations": [
+                            {
+                                "language": "fr-FR",
+                                "value": ""
+                            },
+                            {
+                                "language": "en-US",
+                                "value": ""
+                            },
+                            {
+                                "language": "it-IT",
+                                "value": ""
+                            }
+                        ],
+                        "actions": null,
+                        "business": null
+                    },
+                    "placeholder": {
+                        "id": 0,
+                        "translations": [
+                            {
+                                "language": "fr-FR",
+                                "value": ""
+                            },
+                            {
+                                "language": "en-US",
+                                "value": ""
+                            },
+                            {
+                                "language": "it-IT",
+                                "value": ""
+                            }
+                        ],
+                        "actions": null,
+                        "business": null
+                    },
+                    "elements": [
+                        {
+                            "id": 0,
+                            "orderId": 0,
+                            "topLabel": {
+                                "id": 0,
+                                "translations": [
+                                    {
+                                        "language": "fr-FR",
+                                        "value": "Anti-corruption"
+                                    },
+                                    {
+                                        "language": "en-US",
+                                        "value": "Anti-corruption"
+                                    },
+                                    {
+                                        "language": "it-IT",
+                                        "value": "Anticorruzione"
+                                    }
+                                ],
+                                "actions": [
+                                    {
+                                        "type": "hide",
+                                        "elements": [
+                                            {
+                                                "sectionId": "1",
+                                                "elementId": "1"
+                                            }
+                                        ],
+                                        "allValues": true
+                                    },
+                                    {
+                                        "type": "show",
+                                        "elements": null,
+                                        "allValues": true
+                                    },
+                                    {
+                                        "type": "disabled",
+                                        "elements": [
+                                            {
+                                                "sectionId": "1",
+                                                "elementId": "1"
+                                            }
+                                        ],
+                                        "allValues": true
+                                    }
+                                ],
+                                "business": [
+                                    {
+                                        "type": "rule",
+                                        "values": [
+                                            "User"
+                                        ]
+                                    }
+                                ]
+                            },
+                            "type": "",
+                            "bottomLabel": {
+                                "id": 0,
+                                "translations": [
+                                    {
+                                        "language": "fr-FR",
+                                        "value": ""
+                                    },
+                                    {
+                                        "language": "en-US",
+                                        "value": ""
+                                    },
+                                    {
+                                        "language": "it-IT",
+                                        "value": ""
+                                    }
+                                ],
+                                "actions": null,
+                                "business": null
+                            },
+                            "placeholder": {
+                                "id": 0,
+                                "translations": [
+                                    {
+                                        "language": "fr-FR",
+                                        "value": ""
+                                    },
+                                    {
+                                        "language": "en-US",
+                                        "value": ""
+                                    },
+                                    {
+                                        "language": "it-IT",
+                                        "value": ""
+                                    }
+                                ],
+                                "actions": null,
+                                "business": null
+                            },
+                            "elements": null,
+                            "values": [],
+                            "actions": null,
+                            "business": null
+                        },
+                        {
+                            "id": 1,
+                            "orderId": 1,
+                            "topLabel": {
+                                "id": 0,
+                                "translations": [
+                                    {
+                                        "language": "fr-FR",
+                                        "value": "Code de conduite"
+                                    },
+                                    {
+                                        "language": "en-US",
+                                        "value": "Code of Conduct"
+                                    },
+                                    {
+                                        "language": "it-IT",
+                                        "value": "Codice di comportamento"
+                                    }
+                                ],
+                                "actions": [
+                                    {
+                                        "type": "hide",
+                                        "elements": [],
+                                        "allValues": true
+                                    },
+                                    {
+                                        "type": "show",
+                                        "elements": [],
+                                        "allValues": true
+                                    },
+                                    {
+                                        "type": "disabled",
+                                        "elements": [],
+                                        "allValues": true
+                                    }
+                                ],
+                                "business": [
+                                    {
+                                        "type": "rule",
+                                        "values": [
+                                            "Administrator"
+                                        ]
+                                    }
+                                ]
+                            },
+                            "type": "",
+                            "bottomLabel": {
+                                "id": 0,
+                                "translations": [
+                                    {
+                                        "language": "fr-FR",
+                                        "value": ""
+                                    },
+                                    {
+                                        "language": "en-US",
+                                        "value": ""
+                                    },
+                                    {
+                                        "language": "it-IT",
+                                        "value": ""
+                                    }
+                                ],
+                                "actions": null,
+                                "business": null
+                            },
+                            "placeholder": {
+                                "id": 0,
+                                "translations": [
+                                    {
+                                        "language": "fr-FR",
+                                        "value": ""
+                                    },
+                                    {
+                                        "language": "en-US",
+                                        "value": ""
+                                    },
+                                    {
+                                        "language": "it-IT",
+                                        "value": ""
+                                    }
+                                ],
+                                "actions": null,
+                                "business": null
+                            },
+                            "elements": null,
+                            "values": [],
+                            "actions": null,
+                            "business": null
+                        },
+                        {
+                            "id": 2,
+                            "orderId": 2,
+                            "topLabel": {
+                                "id": 0,
+                                "translations": [
+                                    {
+                                        "language": "fr-FR",
+                                        "value": "Vol / fraude"
+                                    },
+                                    {
+                                        "language": "en-US",
+                                        "value": "Theft / fraud"
+                                    },
+                                    {
+                                        "language": "it-IT",
+                                        "value": "Furti / frodi"
+                                    }
+                                ],
+                                "actions": [
+                                    {
+                                        "type": "hide",
+                                        "elements": null,
+                                        "allValues": true
+                                    },
+                                    {
+                                        "type": "show",
+                                        "elements": null,
+                                        "allValues": true
+                                    },
+                                    {
+                                        "type": "disabled",
+                                        "elements": null,
+                                        "allValues": true
+                                    }
+                                ],
+                                "business": [
+                                    {
+                                        "type": "rule",
+                                        "values": [
+                                            "Administrator"
+                                        ]
+                                    }
+                                ]
+                            },
+                            "type": "",
+                            "bottomLabel": {
+                                "id": 0,
+                                "translations": [
+                                    {
+                                        "language": "fr-FR",
+                                        "value": ""
+                                    },
+                                    {
+                                        "language": "en-US",
+                                        "value": ""
+                                    },
+                                    {
+                                        "language": "it-IT",
+                                        "value": ""
+                                    }
+                                ],
+                                "actions": null,
+                                "business": null
+                            },
+                            "placeholder": {
+                                "id": 0,
+                                "translations": [
+                                    {
+                                        "language": "fr-FR",
+                                        "value": ""
+                                    },
+                                    {
+                                        "language": "en-US",
+                                        "value": ""
+                                    },
+                                    {
+                                        "language": "it-IT",
+                                        "value": ""
+                                    }
+                                ],
+                                "actions": null,
+                                "business": null
+                            },
+                            "elements": null,
+                            "values": [],
+                            "actions": null,
+                            "business": null
+                        },
+                        {
+                            "id": 3,
+                            "orderId": 3,
+                            "topLabel": {
+                                "id": 0,
+                                "translations": [
+                                    {
+                                        "language": "fr-FR",
+                                        "value": "Autre"
+                                    },
+                                    {
+                                        "language": "en-US",
+                                        "value": "Other"
+                                    },
+                                    {
+                                        "language": "it-IT",
+                                        "value": "Altro"
+                                    }
+                                ],
+                                "actions": [
+                                    {
+                                        "type": "hide",
+                                        "elements": null,
+                                        "allValues": true
+                                    },
+                                    {
+                                        "type": "show",
+                                        "elements": null,
+                                        "allValues": true
+                                    },
+                                    {
+                                        "type": "disabled",
+                                        "elements": null,
+                                        "allValues": true
+                                    }
+                                ],
+                                "business": [
+                                    {
+                                        "type": "rule",
+                                        "values": [
+                                            "Administrator"
+                                        ]
+                                    }
+                                ]
+                            },
+                            "type": "",
+                            "bottomLabel": {
+                                "id": 0,
+                                "translations": [
+                                    {
+                                        "language": "fr-FR",
+                                        "value": ""
+                                    },
+                                    {
+                                        "language": "en-US",
+                                        "value": ""
+                                    },
+                                    {
+                                        "language": "it-IT",
+                                        "value": ""
+                                    }
+                                ],
+                                "actions": null,
+                                "business": null
+                            },
+                            "placeholder": {
+                                "id": 0,
+                                "translations": [
+                                    {
+                                        "language": "fr-FR",
+                                        "value": ""
+                                    },
+                                    {
+                                        "language": "en-US",
+                                        "value": ""
+                                    },
+                                    {
+                                        "language": "it-IT",
+                                        "value": ""
+                                    }
+                                ],
+                                "actions": null,
+                                "business": null
+                            },
+                            "elements": null,
+                            "values": [],
+                            "actions": null,
+                            "business": null
+                        }
+                    ],
+                    "values": [],
+                    "actions": null,
+                    "business": null
+                }
+            ],
+            "actions": null,
+            "business": null
+        },
+        {
+            "id": 2,
+            "title": {
+                "id": 0,
+                "translations": [
+                    {
+                        "language": "fr-FR",
+                        "value": "Description du fait"
+                    },
+                    {
+                        "language": "en-US",
+                        "value": "Description of the fact"
+                    },
+                    {
+                        "language": "it-IT",
+                        "value": "Descrizione del fatto"
+                    }
+                ],
+                "actions": null,
+                "business": null
+            },
+            "required": true,
+            "orderId": 2,
+            "topLabel": {
+                "id": 0,
+                "translations": [
+                    {
+                        "language": "fr-FR",
+                        "value": ""
+                    },
+                    {
+                        "language": "en-US",
+                        "value": ""
+                    },
+                    {
+                        "language": "it-IT",
+                        "value": ""
+                    }
+                ],
+                "actions": null,
+                "business": null
+            },
+            "bottomLabel": {
+                "id": 0,
+                "translations": [
+                    {
+                        "language": "fr-FR",
+                        "value": ""
+                    },
+                    {
+                        "language": "en-US",
+                        "value": ""
+                    },
+                    {
+                        "language": "it-IT",
+                        "value": ""
+                    }
+                ],
+                "actions": null,
+                "business": null
+            },
+            "elements": [
+                {
+                    "id": 0,
+                    "orderId": 0,
+                    "topLabel": {
+                        "id": 0,
+                        "translations": [
+                            {
+                                "language": "fr-FR",
+                                "value": ""
+                            },
+                            {
+                                "language": "en-US",
+                                "value": ""
+                            },
+                            {
+                                "language": "it-IT",
+                                "value": ""
+                            }
+                        ],
+                        "actions": [
+                            {
+                                "type": "hide",
+                                "elements": null,
+                                "allValues": true
+                            },
+                            {
+                                "type": "show",
+                                "elements": null,
+                                "allValues": true
+                            },
+                            {
+                                "type": "disabled",
+                                "elements": null,
+                                "allValues": true
+                            }
+                        ],
+                        "business": [
+                            {
+                                "type": "rule",
+                                "values": []
+                            }
+                        ]
+                    },
+                    "type": "TEXTAREA",
+                    "bottomLabel": {
+                        "id": 0,
+                        "translations": [
+                            {
+                                "language": "fr-FR",
+                                "value": ""
+                            },
+                            {
+                                "language": "en-US",
+                                "value": ""
+                            },
+                            {
+                                "language": "it-IT",
+                                "value": ""
+                            }
+                        ],
+                        "actions": null,
+                        "business": null
+                    },
+                    "placeholder": {
+                        "id": 0,
+                        "translations": [
+                            {
+                                "language": "fr-FR",
+                                "value": ""
+                            },
+                            {
+                                "language": "en-US",
+                                "value": ""
+                            },
+                            {
+                                "language": "it-IT",
+                                "value": ""
+                            }
+                        ],
+                        "actions": null,
+                        "business": null
+                    },
+                    "elements": [
+                        {
+                            "id": 0,
+                            "orderId": 0,
+                            "topLabel": {
+                                "id": 0,
+                                "translations": [
+                                    {
+                                        "language": "fr-FR",
+                                        "value": ""
+                                    },
+                                    {
+                                        "language": "en-US",
+                                        "value": ""
+                                    },
+                                    {
+                                        "language": "it-IT",
+                                        "value": ""
+                                    }
+                                ],
+                                "actions": [
+                                    {
+                                        "type": "hide",
+                                        "elements": null,
+                                        "allValues": true
+                                    },
+                                    {
+                                        "type": "show",
+                                        "elements": null,
+                                        "allValues": true
+                                    },
+                                    {
+                                        "type": "disabled",
+                                        "elements": null,
+                                        "allValues": true
+                                    }
+                                ],
+                                "business": [
+                                    {
+                                        "type": "rule",
+                                        "values": []
+                                    }
+                                ]
+                            },
+                            "type": "",
+                            "bottomLabel": {
+                                "id": 0,
+                                "translations": [
+                                    {
+                                        "language": "fr-FR",
+                                        "value": ""
+                                    },
+                                    {
+                                        "language": "en-US",
+                                        "value": ""
+                                    },
+                                    {
+                                        "language": "it-IT",
+                                        "value": ""
+                                    }
+                                ],
+                                "actions": null,
+                                "business": null
+                            },
+                            "placeholder": {
+                                "id": 0,
+                                "translations": [
+                                    {
+                                        "language": "fr-FR",
+                                        "value": ""
+                                    },
+                                    {
+                                        "language": "en-US",
+                                        "value": ""
+                                    },
+                                    {
+                                        "language": "it-IT",
+                                        "value": ""
+                                    }
+                                ],
+                                "actions": null,
+                                "business": null
+                            },
+                            "elements": null,
+                            "values": [],
+                            "actions": null,
+                            "business": null
+                        }
+                    ],
+                    "values": [],
+                    "actions": null,
+                    "business": null
+                }
+            ],
+            "actions": null,
+            "business": null
+        },
+        {
+            "id": 3,
+            "title": {
+                "id": 0,
+                "translations": [
+                    {
+                        "language": "fr-FR",
+                        "value": "Date / période à laquelle le fait s'est produit"
+                    },
+                    {
+                        "language": "en-US",
+                        "value": "Date / period in which the fact occurred"
+                    },
+                    {
+                        "language": "it-IT",
+                        "value": "Data/periodo in cui si è verificato il fatto"
+                    }
+                ],
+                "actions": null,
+                "business": null
+            },
+            "required": true,
+            "orderId": 3,
+            "topLabel": {
+                "id": 0,
+                "translations": [
+                    {
+                        "language": "fr-FR",
+                        "value": ""
+                    },
+                    {
+                        "language": "en-US",
+                        "value": ""
+                    },
+                    {
+                        "language": "it-IT",
+                        "value": ""
+                    }
+                ],
+                "actions": null,
+                "business": null
+            },
+            "bottomLabel": {
+                "id": 0,
+                "translations": [
+                    {
+                        "language": "fr-FR",
+                        "value": ""
+                    },
+                    {
+                        "language": "en-US",
+                        "value": ""
+                    },
+                    {
+                        "language": "it-IT",
+                        "value": ""
+                    }
+                ],
+                "actions": null,
+                "business": null
+            },
+            "elements": [
+                {
+                    "id": 0,
+                    "orderId": 0,
+                    "topLabel": {
+                        "id": 0,
+                        "translations": [
+                            {
+                                "language": "fr-FR",
+                                "value": ""
+                            },
+                            {
+                                "language": "en-US",
+                                "value": ""
+                            },
+                            {
+                                "language": "it-IT",
+                                "value": ""
+                            }
+                        ],
+                        "actions": [
+                            {
+                                "type": "hide",
+                                "elements": null,
+                                "allValues": true
+                            },
+                            {
+                                "type": "show",
+                                "elements": null,
+                                "allValues": true
+                            },
+                            {
+                                "type": "disabled",
+                                "elements": null,
+                                "allValues": true
+                            }
+                        ],
+                        "business": [
+                            {
+                                "type": "rule",
+                                "values": []
+                            }
+                        ]
+                    },
+                    "type": "TEXT",
+                    "bottomLabel": {
+                        "id": 0,
+                        "translations": [
+                            {
+                                "language": "fr-FR",
+                                "value": ""
+                            },
+                            {
+                                "language": "en-US",
+                                "value": ""
+                            },
+                            {
+                                "language": "it-IT",
+                                "value": ""
+                            }
+                        ],
+                        "actions": null,
+                        "business": null
+                    },
+                    "placeholder": {
+                        "id": 0,
+                        "translations": [
+                            {
+                                "language": "fr-FR",
+                                "value": ""
+                            },
+                            {
+                                "language": "en-US",
+                                "value": ""
+                            },
+                            {
+                                "language": "it-IT",
+                                "value": ""
+                            }
+                        ],
+                        "actions": null,
+                        "business": null
+                    },
+                    "elements": [
+                        {
+                            "id": 0,
+                            "orderId": 0,
+                            "topLabel": {
+                                "id": 0,
+                                "translations": [
+                                    {
+                                        "language": "fr-FR",
+                                        "value": ""
+                                    },
+                                    {
+                                        "language": "en-US",
+                                        "value": ""
+                                    },
+                                    {
+                                        "language": "it-IT",
+                                        "value": ""
+                                    }
+                                ],
+                                "actions": [
+                                    {
+                                        "type": "hide",
+                                        "elements": null,
+                                        "allValues": true
+                                    },
+                                    {
+                                        "type": "show",
+                                        "elements": null,
+                                        "allValues": true
+                                    },
+                                    {
+                                        "type": "disabled",
+                                        "elements": null,
+                                        "allValues": true
+                                    }
+                                ],
+                                "business": [
+                                    {
+                                        "type": "rule",
+                                        "values": []
+                                    }
+                                ]
+                            },
+                            "type": "",
+                            "bottomLabel": {
+                                "id": 0,
+                                "translations": [
+                                    {
+                                        "language": "fr-FR",
+                                        "value": ""
+                                    },
+                                    {
+                                        "language": "en-US",
+                                        "value": ""
+                                    },
+                                    {
+                                        "language": "it-IT",
+                                        "value": ""
+                                    }
+                                ],
+                                "actions": null,
+                                "business": null
+                            },
+                            "placeholder": {
+                                "id": 0,
+                                "translations": [
+                                    {
+                                        "language": "fr-FR",
+                                        "value": ""
+                                    },
+                                    {
+                                        "language": "en-US",
+                                        "value": ""
+                                    },
+                                    {
+                                        "language": "it-IT",
+                                        "value": ""
+                                    }
+                                ],
+                                "actions": null,
+                                "business": null
+                            },
+                            "elements": null,
+                            "values": [],
+                            "actions": null,
+                            "business": null
+                        }
+                    ],
+                    "values": [],
+                    "actions": null,
+                    "business": null
+                }
+            ],
+            "actions": null,
+            "business": null
+        },
+        {
+            "id": 4,
+            "title": {
+                "id": 0,
+                "translations": [
+                    {
+                        "language": "fr-FR",
+                        "value": "Lieu d'embauche"
+                    },
+                    {
+                        "language": "en-US",
+                        "value": "Place of employment"
+                    },
+                    {
+                        "language": "it-IT",
+                        "value": "Sede di servizio"
+                    }
+                ],
+                "actions": null,
+                "business": null
+            },
+            "required": false,
+            "orderId": 4,
+            "topLabel": {
+                "id": 0,
+                "translations": [
+                    {
+                        "language": "fr-FR",
+                        "value": ""
+                    },
+                    {
+                        "language": "en-US",
+                        "value": ""
+                    },
+                    {
+                        "language": "it-IT",
+                        "value": ""
+                    }
+                ],
+                "actions": null,
+                "business": null
+            },
+            "bottomLabel": {
+                "id": 0,
+                "translations": [
+                    {
+                        "language": "fr-FR",
+                        "value": ""
+                    },
+                    {
+                        "language": "en-US",
+                        "value": ""
+                    },
+                    {
+                        "language": "it-IT",
+                        "value": ""
+                    }
+                ],
+                "actions": null,
+                "business": null
+            },
+            "elements": [
+                {
+                    "id": 0,
+                    "orderId": 0,
+                    "topLabel": {
+                        "id": 0,
+                        "translations": [
+                            {
+                                "language": "fr-FR",
+                                "value": ""
+                            },
+                            {
+                                "language": "en-US",
+                                "value": ""
+                            },
+                            {
+                                "language": "it-IT",
+                                "value": ""
+                            }
+                        ],
+                        "actions": [
+                            {
+                                "type": "hide",
+                                "elements": null,
+                                "allValues": true
+                            },
+                            {
+                                "type": "show",
+                                "elements": null,
+                                "allValues": true
+                            },
+                            {
+                                "type": "disabled",
+                                "elements": null,
+                                "allValues": true
+                            }
+                        ],
+                        "business": [
+                            {
+                                "type": "rule",
+                                "values": []
+                            }
+                        ]
+                    },
+                    "type": "TEXT",
+                    "bottomLabel": {
+                        "id": 0,
+                        "translations": [
+                            {
+                                "language": "fr-FR",
+                                "value": ""
+                            },
+                            {
+                                "language": "en-US",
+                                "value": ""
+                            },
+                            {
+                                "language": "it-IT",
+                                "value": ""
+                            }
+                        ],
+                        "actions": null,
+                        "business": null
+                    },
+                    "placeholder": {
+                        "id": 0,
+                        "translations": [
+                            {
+                                "language": "fr-FR",
+                                "value": ""
+                            },
+                            {
+                                "language": "en-US",
+                                "value": ""
+                            },
+                            {
+                                "language": "it-IT",
+                                "value": ""
+                            }
+                        ],
+                        "actions": null,
+                        "business": null
+                    },
+                    "elements": [
+                        {
+                            "id": 0,
+                            "orderId": 0,
+                            "topLabel": {
+                                "id": 0,
+                                "translations": [
+                                    {
+                                        "language": "fr-FR",
+                                        "value": ""
+                                    },
+                                    {
+                                        "language": "en-US",
+                                        "value": ""
+                                    },
+                                    {
+                                        "language": "it-IT",
+                                        "value": ""
+                                    }
+                                ],
+                                "actions": [
+                                    {
+                                        "type": "hide",
+                                        "elements": null,
+                                        "allValues": true
+                                    },
+                                    {
+                                        "type": "show",
+                                        "elements": null,
+                                        "allValues": true
+                                    },
+                                    {
+                                        "type": "disabled",
+                                        "elements": null,
+                                        "allValues": true
+                                    }
+                                ],
+                                "business": [
+                                    {
+                                        "type": "rule",
+                                        "values": []
+                                    }
+                                ]
+                            },
+                            "type": "",
+                            "bottomLabel": {
+                                "id": 0,
+                                "translations": [
+                                    {
+                                        "language": "fr-FR",
+                                        "value": ""
+                                    },
+                                    {
+                                        "language": "en-US",
+                                        "value": ""
+                                    },
+                                    {
+                                        "language": "it-IT",
+                                        "value": ""
+                                    }
+                                ],
+                                "actions": null,
+                                "business": null
+                            },
+                            "placeholder": {
+                                "id": 0,
+                                "translations": [
+                                    {
+                                        "language": "fr-FR",
+                                        "value": ""
+                                    },
+                                    {
+                                        "language": "en-US",
+                                        "value": ""
+                                    },
+                                    {
+                                        "language": "it-IT",
+                                        "value": ""
+                                    }
+                                ],
+                                "actions": null,
+                                "business": null
+                            },
+                            "elements": null,
+                            "values": [],
+                            "actions": null,
+                            "business": null
+                        }
+                    ],
+                    "values": [],
+                    "actions": null,
+                    "business": null
+                }
+            ],
+            "actions": null,
+            "business": null
+        },
+        {
+            "id": 5,
+            "title": {
+                "id": 0,
+                "translations": [
+                    {
+                        "language": "fr-FR",
+                        "value": "Luogo fisico in cui si è verificato il fatto"
+                    },
+                    {
+                        "language": "en-US",
+                        "value": "Luogo fisico in cui si è verificato il fatto"
+                    },
+                    {
+                        "language": "it-IT",
+                        "value": "Luogo fisico in cui si è verificato il fatto"
+                    }
+                ],
+                "actions": null,
+                "business": null
+            },
+            "required": true,
+            "orderId": 5,
+            "topLabel": {
+                "id": 0,
+                "translations": [
+                    {
+                        "language": "fr-FR",
+                        "value": ""
+                    },
+                    {
+                        "language": "en-US",
+                        "value": ""
+                    },
+                    {
+                        "language": "it-IT",
+                        "value": ""
+                    }
+                ],
+                "actions": null,
+                "business": null
+            },
+            "bottomLabel": {
+                "id": 0,
+                "translations": [
+                    {
+                        "language": "fr-FR",
+                        "value": ""
+                    },
+                    {
+                        "language": "en-US",
+                        "value": ""
+                    },
+                    {
+                        "language": "it-IT",
+                        "value": ""
+                    }
+                ],
+                "actions": null,
+                "business": null
+            },
+            "elements": [
+                {
+                    "id": 0,
+                    "orderId": 0,
+                    "topLabel": {
+                        "id": 0,
+                        "translations": [
+                            {
+                                "language": "fr-FR",
+                                "value": ""
+                            },
+                            {
+                                "language": "en-US",
+                                "value": ""
+                            },
+                            {
+                                "language": "it-IT",
+                                "value": ""
+                            }
+                        ],
+                        "actions": [
+                            {
+                                "type": "hide",
+                                "elements": null,
+                                "allValues": true
+                            },
+                            {
+                                "type": "show",
+                                "elements": null,
+                                "allValues": true
+                            },
+                            {
+                                "type": "disabled",
+                                "elements": null,
+                                "allValues": true
+                            }
+                        ],
+                        "business": [
+                            {
+                                "type": "rule",
+                                "values": []
+                            }
+                        ]
+                    },
+                    "type": "RADIOGROUP",
+                    "bottomLabel": {
+                        "id": 0,
+                        "translations": [
+                            {
+                                "language": "fr-FR",
+                                "value": ""
+                            },
+                            {
+                                "language": "en-US",
+                                "value": ""
+                            },
+                            {
+                                "language": "it-IT",
+                                "value": ""
+                            }
+                        ],
+                        "actions": null,
+                        "business": null
+                    },
+                    "placeholder": {
+                        "id": 0,
+                        "translations": [
+                            {
+                                "language": "fr-FR",
+                                "value": ""
+                            },
+                            {
+                                "language": "en-US",
+                                "value": ""
+                            },
+                            {
+                                "language": "it-IT",
+                                "value": ""
+                            }
+                        ],
+                        "actions": null,
+                        "business": null
+                    },
+                    "elements": [
+                        {
+                            "id": 0,
+                            "orderId": 0,
+                            "topLabel": {
+                                "id": 0,
+                                "translations": [
+                                    {
+                                        "language": "fr-FR",
+                                        "value": "AU BUREAU (indiquer le nom et l'adresse de l'établissement)"
+                                    },
+                                    {
+                                        "language": "en-US",
+                                        "value": "IN THE OFFICE (indicate the name and address of the facility)"
+                                    },
+                                    {
+                                        "language": "it-IT",
+                                        "value": "IN UFFICIO (indicare denominazione e indirizzo della struttura)"
+                                    }
+                                ],
+                                "actions": [
+                                    {
+                                        "type": "hide",
+                                        "elements": null,
+                                        "allValues": true
+                                    },
+                                    {
+                                        "type": "show",
+                                        "elements": null,
+                                        "allValues": true
+                                    },
+                                    {
+                                        "type": "disabled",
+                                        "elements": null,
+                                        "allValues": true
+                                    }
+                                ],
+                                "business": [
+                                    {
+                                        "type": "rule",
+                                        "values": []
+                                    }
+                                ]
+                            },
+                            "type": "",
+                            "bottomLabel": {
+                                "id": 0,
+                                "translations": [
+                                    {
+                                        "language": "fr-FR",
+                                        "value": ""
+                                    },
+                                    {
+                                        "language": "en-US",
+                                        "value": ""
+                                    },
+                                    {
+                                        "language": "it-IT",
+                                        "value": ""
+                                    }
+                                ],
+                                "actions": null,
+                                "business": null
+                            },
+                            "placeholder": {
+                                "id": 0,
+                                "translations": [
+                                    {
+                                        "language": "fr-FR",
+                                        "value": ""
+                                    },
+                                    {
+                                        "language": "en-US",
+                                        "value": ""
+                                    },
+                                    {
+                                        "language": "it-IT",
+                                        "value": ""
+                                    }
+                                ],
+                                "actions": null,
+                                "business": null
+                            },
+                            "elements": null,
+                            "values": [],
+                            "actions": null,
+                            "business": null
+                        },
+                        {
+                            "id": 1,
+                            "orderId": 1,
+                            "topLabel": {
+                                "id": 0,
+                                "translations": [
+                                    {
+                                        "language": "fr-FR",
+                                        "value": "EN DEHORS DU BUREAU (indiquer lieu et adresse)"
+                                    },
+                                    {
+                                        "language": "en-US",
+                                        "value": "OUTSIDE THE OFFICE (indicate place and address)"
+                                    },
+                                    {
+                                        "language": "it-IT",
+                                        "value": "ALL’ESTERNO DELL’UFFICIO (indicare luogo ed indirizzo)"
+                                    }
+                                ],
+                                "actions": [
+                                    {
+                                        "type": "hide",
+                                        "elements": null,
+                                        "allValues": true
+                                    },
+                                    {
+                                        "type": "show",
+                                        "elements": null,
+                                        "allValues": true
+                                    },
+                                    {
+                                        "type": "disabled",
+                                        "elements": null,
+                                        "allValues": true
+                                    }
+                                ],
+                                "business": [
+                                    {
+                                        "type": "rule",
+                                        "values": []
+                                    }
+                                ]
+                            },
+                            "type": "",
+                            "bottomLabel": {
+                                "id": 0,
+                                "translations": [
+                                    {
+                                        "language": "fr-FR",
+                                        "value": ""
+                                    },
+                                    {
+                                        "language": "en-US",
+                                        "value": ""
+                                    },
+                                    {
+                                        "language": "it-IT",
+                                        "value": ""
+                                    }
+                                ],
+                                "actions": null,
+                                "business": null
+                            },
+                            "placeholder": {
+                                "id": 0,
+                                "translations": [
+                                    {
+                                        "language": "fr-FR",
+                                        "value": ""
+                                    },
+                                    {
+                                        "language": "en-US",
+                                        "value": ""
+                                    },
+                                    {
+                                        "language": "it-IT",
+                                        "value": ""
+                                    }
+                                ],
+                                "actions": null,
+                                "business": null
+                            },
+                            "elements": null,
+                            "values": [],
+                            "actions": null,
+                            "business": null
+                        }
+                    ],
+                    "values": [],
+                    "actions": null,
+                    "business": null
+                },
+                {
+                    "id": 1,
+                    "orderId": 1,
+                    "topLabel": {
+                        "id": 0,
+                        "translations": [
+                            {
+                                "language": "fr-FR",
+                                "value": ""
+                            },
+                            {
+                                "language": "en-US",
+                                "value": ""
+                            },
+                            {
+                                "language": "it-IT",
+                                "value": ""
+                            }
+                        ],
+                        "actions": [
+                            {
+                                "type": "hide",
+                                "elements": null,
+                                "allValues": true
+                            },
+                            {
+                                "type": "show",
+                                "elements": null,
+                                "allValues": true
+                            },
+                            {
+                                "type": "disabled",
+                                "elements": null,
+                                "allValues": true
+                            }
+                        ],
+                        "business": [
+                            {
+                                "type": "rule",
+                                "values": []
+                            }
+                        ]
+                    },
+                    "type": "TEXT",
+                    "bottomLabel": {
+                        "id": 0,
+                        "translations": [
+                            {
+                                "language": "fr-FR",
+                                "value": ""
+                            },
+                            {
+                                "language": "en-US",
+                                "value": ""
+                            },
+                            {
+                                "language": "it-IT",
+                                "value": ""
+                            }
+                        ],
+                        "actions": null,
+                        "business": null
+                    },
+                    "placeholder": {
+                        "id": 0,
+                        "translations": [
+                            {
+                                "language": "fr-FR",
+                                "value": "Lieu / nom de la structure et adresse"
+                            },
+                            {
+                                "language": "en-US",
+                                "value": "Place / name of structure and address"
+                            },
+                            {
+                                "language": "it-IT",
+                                "value": "Luogo/Denominazione struttura e indirizzo"
+                            }
+                        ],
+                        "actions": null,
+                        "business": null
+                    },
+                    "elements": [
+                        {
+                            "id": 0,
+                            "orderId": 0,
+                            "topLabel": {
+                                "id": 0,
+                                "translations": [
+                                    {
+                                        "language": "fr-FR",
+                                        "value": ""
+                                    },
+                                    {
+                                        "language": "en-US",
+                                        "value": ""
+                                    },
+                                    {
+                                        "language": "it-IT",
+                                        "value": ""
+                                    }
+                                ],
+                                "actions": [
+                                    {
+                                        "type": "hide",
+                                        "elements": null,
+                                        "allValues": true
+                                    },
+                                    {
+                                        "type": "show",
+                                        "elements": null,
+                                        "allValues": true
+                                    },
+                                    {
+                                        "type": "disabled",
+                                        "elements": null,
+                                        "allValues": true
+                                    }
+                                ],
+                                "business": [
+                                    {
+                                        "type": "rule",
+                                        "values": []
+                                    }
+                                ]
+                            },
+                            "type": "",
+                            "bottomLabel": {
+                                "id": 0,
+                                "translations": [
+                                    {
+                                        "language": "fr-FR",
+                                        "value": ""
+                                    },
+                                    {
+                                        "language": "en-US",
+                                        "value": ""
+                                    },
+                                    {
+                                        "language": "it-IT",
+                                        "value": ""
+                                    }
+                                ],
+                                "actions": null,
+                                "business": null
+                            },
+                            "placeholder": {
+                                "id": 0,
+                                "translations": [
+                                    {
+                                        "language": "fr-FR",
+                                        "value": ""
+                                    },
+                                    {
+                                        "language": "en-US",
+                                        "value": ""
+                                    },
+                                    {
+                                        "language": "it-IT",
+                                        "value": ""
+                                    }
+                                ],
+                                "actions": null,
+                                "business": null
+                            },
+                            "elements": null,
+                            "values": [],
+                            "actions": null,
+                            "business": null
+                        }
+                    ],
+                    "values": [],
+                    "actions": null,
+                    "business": null
+                }
+            ],
+            "actions": null,
+            "business": null
+        },
+        {
+            "id": 6,
+            "title": {
+                "id": 0,
+                "translations": [
+                    {
+                        "language": "fr-FR",
+                        "value": "Je crois que les actions ou omissions commises ou tentées sont"
+                    },
+                    {
+                        "language": "en-US",
+                        "value": "I believe that the actions or omissions committed or attempted are"
+                    },
+                    {
+                        "language": "it-IT",
+                        "value": "Ritengo che le azioni od omissioni commesse o tentate siano"
+                    }
+                ],
+                "actions": null,
+                "business": null
+            },
+            "required": true,
+            "orderId": 6,
+            "topLabel": {
+                "id": 0,
+                "translations": [
+                    {
+                        "language": "fr-FR",
+                        "value": ""
+                    },
+                    {
+                        "language": "en-US",
+                        "value": ""
+                    },
+                    {
+                        "language": "it-IT",
+                        "value": ""
+                    }
+                ],
+                "actions": null,
+                "business": null
+            },
+            "bottomLabel": {
+                "id": 0,
+                "translations": [
+                    {
+                        "language": "fr-FR",
+                        "value": "Le rapport ne concerne pas les plaintes à caractère personnel du lanceur d'alerte ni les demandes relatives à la discipline de la relation de travail ou aux relations avec les supérieurs hiérarchiques ou les collègues, pour lesquelles il convient de saisir le service du personnel"
+                    },
+                    {
+                        "language": "en-US",
+                        "value": "The report does not concern complaints of a personal nature by the whistleblower or requests relating to the discipline of the employment relationship or to relations with hierarchical superiors or colleagues, for which reference must be made to the Personnel Department"
+                    },
+                    {
+                        "language": "it-IT",
+                        "value": "La segnalazione non riguarda rimostranze di carattere personale del segnalante o richieste che attengono alla disciplina del rapporto di lavoro o ai rapporti col superiore gerarchico o colleghi, per le quali occorre fare riferimento alla Direzione del Personale"
+                    }
+                ],
+                "actions": null,
+                "business": null
+            },
+            "elements": [
+                {
+                    "id": 0,
+                    "orderId": 0,
+                    "topLabel": {
+                        "id": 0,
+                        "translations": [
+                            {
+                                "language": "fr-FR",
+                                "value": ""
+                            },
+                            {
+                                "language": "en-US",
+                                "value": ""
+                            },
+                            {
+                                "language": "it-IT",
+                                "value": ""
+                            }
+                        ],
+                        "actions": [
+                            {
+                                "type": "hide",
+                                "elements": null,
+                                "allValues": true
+                            },
+                            {
+                                "type": "show",
+                                "elements": null,
+                                "allValues": true
+                            },
+                            {
+                                "type": "disabled",
+                                "elements": null,
+                                "allValues": true
+                            }
+                        ],
+                        "business": [
+                            {
+                                "type": "rule",
+                                "values": []
+                            }
+                        ]
+                    },
+                    "type": "RADIOGROUP",
+                    "bottomLabel": {
+                        "id": 0,
+                        "translations": [
+                            {
+                                "language": "fr-FR",
+                                "value": ""
+                            },
+                            {
+                                "language": "en-US",
+                                "value": ""
+                            },
+                            {
+                                "language": "it-IT",
+                                "value": ""
+                            }
+                        ],
+                        "actions": null,
+                        "business": null
+                    },
+                    "placeholder": {
+                        "id": 0,
+                        "translations": [
+                            {
+                                "language": "fr-FR",
+                                "value": ""
+                            },
+                            {
+                                "language": "en-US",
+                                "value": ""
+                            },
+                            {
+                                "language": "it-IT",
+                                "value": ""
+                            }
+                        ],
+                        "actions": null,
+                        "business": null
+                    },
+                    "elements": [
+                        {
+                            "id": 0,
+                            "orderId": 0,
+                            "topLabel": {
+                                "id": 0,
+                                "translations": [
+                                    {
+                                        "language": "fr-FR",
+                                        "value": "Pénalement pertinente"
+                                    },
+                                    {
+                                        "language": "en-US",
+                                        "value": "Criminally relevant"
+                                    },
+                                    {
+                                        "language": "it-IT",
+                                        "value": "Penalmente rilevanti"
+                                    }
+                                ],
+                                "actions": [
+                                    {
+                                        "type": "hide",
+                                        "elements": null,
+                                        "allValues": true
+                                    },
+                                    {
+                                        "type": "show",
+                                        "elements": null,
+                                        "allValues": true
+                                    },
+                                    {
+                                        "type": "disabled",
+                                        "elements": null,
+                                        "allValues": true
+                                    }
+                                ],
+                                "business": [
+                                    {
+                                        "type": "rule",
+                                        "values": []
+                                    }
+                                ]
+                            },
+                            "type": "",
+                            "bottomLabel": {
+                                "id": 0,
+                                "translations": [
+                                    {
+                                        "language": "fr-FR",
+                                        "value": ""
+                                    },
+                                    {
+                                        "language": "en-US",
+                                        "value": ""
+                                    },
+                                    {
+                                        "language": "it-IT",
+                                        "value": ""
+                                    }
+                                ],
+                                "actions": null,
+                                "business": null
+                            },
+                            "placeholder": {
+                                "id": 0,
+                                "translations": [
+                                    {
+                                        "language": "fr-FR",
+                                        "value": ""
+                                    },
+                                    {
+                                        "language": "en-US",
+                                        "value": ""
+                                    },
+                                    {
+                                        "language": "it-IT",
+                                        "value": ""
+                                    }
+                                ],
+                                "actions": null,
+                                "business": null
+                            },
+                            "elements": null,
+                            "values": [],
+                            "actions": null,
+                            "business": null
+                        },
+                        {
+                            "id": 1,
+                            "orderId": 1,
+                            "topLabel": {
+                                "id": 0,
+                                "translations": [
+                                    {
+                                        "language": "fr-FR",
+                                        "value": "Mis en œuvre en violation du code d'éthique, du règlement intérieur de l'entreprise ou d'autres dispositions pouvant être sanctionnées par des mesures disciplinaires"
+                                    },
+                                    {
+                                        "language": "en-US",
+                                        "value": "Implemented in violation of the Code of Ethics, the internal company regulations or other provisions that can be sanctioned by disciplinary measures"
+                                    },
+                                    {
+                                        "language": "it-IT",
+                                        "value": "Poste in essere in violazione del Codice Etico, del Regolamento interno aziendale o di altre disposizioni sanzionabili in via disciplinare"
+                                    }
+                                ],
+                                "actions": [
+                                    {
+                                        "type": "hide",
+                                        "elements": null,
+                                        "allValues": true
+                                    },
+                                    {
+                                        "type": "show",
+                                        "elements": null,
+                                        "allValues": true
+                                    },
+                                    {
+                                        "type": "disabled",
+                                        "elements": null,
+                                        "allValues": true
+                                    }
+                                ],
+                                "business": [
+                                    {
+                                        "type": "rule",
+                                        "values": []
+                                    }
+                                ]
+                            },
+                            "type": "",
+                            "bottomLabel": {
+                                "id": 0,
+                                "translations": [
+                                    {
+                                        "language": "fr-FR",
+                                        "value": ""
+                                    },
+                                    {
+                                        "language": "en-US",
+                                        "value": ""
+                                    },
+                                    {
+                                        "language": "it-IT",
+                                        "value": ""
+                                    }
+                                ],
+                                "actions": null,
+                                "business": null
+                            },
+                            "placeholder": {
+                                "id": 0,
+                                "translations": [
+                                    {
+                                        "language": "fr-FR",
+                                        "value": ""
+                                    },
+                                    {
+                                        "language": "en-US",
+                                        "value": ""
+                                    },
+                                    {
+                                        "language": "it-IT",
+                                        "value": ""
+                                    }
+                                ],
+                                "actions": null,
+                                "business": null
+                            },
+                            "elements": null,
+                            "values": [],
+                            "actions": null,
+                            "business": null
+                        },
+                        {
+                            "id": 2,
+                            "orderId": 2,
+                            "topLabel": {
+                                "id": 0,
+                                "translations": [
+                                    {
+                                        "language": "fr-FR",
+                                        "value": "Susceptible de causer un dommage pécuniaire"
+                                    },
+                                    {
+                                        "language": "en-US",
+                                        "value": "Susceptible of causing a pecuniary damage"
+                                    },
+                                    {
+                                        "language": "it-IT",
+                                        "value": "Suscettibili di arrecare un pregiudizio patrimoniale"
+                                    }
+                                ],
+                                "actions": [
+                                    {
+                                        "type": "hide",
+                                        "elements": null,
+                                        "allValues": true
+                                    },
+                                    {
+                                        "type": "show",
+                                        "elements": null,
+                                        "allValues": true
+                                    },
+                                    {
+                                        "type": "disabled",
+                                        "elements": null,
+                                        "allValues": true
+                                    }
+                                ],
+                                "business": [
+                                    {
+                                        "type": "rule",
+                                        "values": []
+                                    }
+                                ]
+                            },
+                            "type": "",
+                            "bottomLabel": {
+                                "id": 0,
+                                "translations": [
+                                    {
+                                        "language": "fr-FR",
+                                        "value": ""
+                                    },
+                                    {
+                                        "language": "en-US",
+                                        "value": ""
+                                    },
+                                    {
+                                        "language": "it-IT",
+                                        "value": ""
+                                    }
+                                ],
+                                "actions": null,
+                                "business": null
+                            },
+                            "placeholder": {
+                                "id": 0,
+                                "translations": [
+                                    {
+                                        "language": "fr-FR",
+                                        "value": ""
+                                    },
+                                    {
+                                        "language": "en-US",
+                                        "value": ""
+                                    },
+                                    {
+                                        "language": "it-IT",
+                                        "value": ""
+                                    }
+                                ],
+                                "actions": null,
+                                "business": null
+                            },
+                            "elements": null,
+                            "values": [],
+                            "actions": null,
+                            "business": null
+                        },
+                        {
+                            "id": 3,
+                            "orderId": 3,
+                            "topLabel": {
+                                "id": 0,
+                                "translations": [
+                                    {
+                                        "language": "fr-FR",
+                                        "value": "Susceptible d'endommager l'image"
+                                    },
+                                    {
+                                        "language": "en-US",
+                                        "value": "Likely to damage the image"
+                                    },
+                                    {
+                                        "language": "it-IT",
+                                        "value": "Suscettibili di arrecare un pregiudizio alla immagine"
+                                    }
+                                ],
+                                "actions": [
+                                    {
+                                        "type": "hide",
+                                        "elements": null,
+                                        "allValues": true
+                                    },
+                                    {
+                                        "type": "show",
+                                        "elements": null,
+                                        "allValues": true
+                                    },
+                                    {
+                                        "type": "disabled",
+                                        "elements": null,
+                                        "allValues": true
+                                    }
+                                ],
+                                "business": [
+                                    {
+                                        "type": "rule",
+                                        "values": []
+                                    }
+                                ]
+                            },
+                            "type": "",
+                            "bottomLabel": {
+                                "id": 0,
+                                "translations": [
+                                    {
+                                        "language": "fr-FR",
+                                        "value": ""
+                                    },
+                                    {
+                                        "language": "en-US",
+                                        "value": ""
+                                    },
+                                    {
+                                        "language": "it-IT",
+                                        "value": ""
+                                    }
+                                ],
+                                "actions": null,
+                                "business": null
+                            },
+                            "placeholder": {
+                                "id": 0,
+                                "translations": [
+                                    {
+                                        "language": "fr-FR",
+                                        "value": ""
+                                    },
+                                    {
+                                        "language": "en-US",
+                                        "value": ""
+                                    },
+                                    {
+                                        "language": "it-IT",
+                                        "value": ""
+                                    }
+                                ],
+                                "actions": null,
+                                "business": null
+                            },
+                            "elements": null,
+                            "values": [],
+                            "actions": null,
+                            "business": null
+                        },
+                        {
+                            "id": 4,
+                            "orderId": 4,
+                            "topLabel": {
+                                "id": 0,
+                                "translations": [
+                                    {
+                                        "language": "fr-FR",
+                                        "value": "Autre"
+                                    },
+                                    {
+                                        "language": "en-US",
+                                        "value": "Other"
+                                    },
+                                    {
+                                        "language": "it-IT",
+                                        "value": "Altro"
+                                    }
+                                ],
+                                "actions": [
+                                    {
+                                        "type": "hide",
+                                        "elements": null,
+                                        "allValues": true
+                                    },
+                                    {
+                                        "type": "show",
+                                        "elements": null,
+                                        "allValues": true
+                                    },
+                                    {
+                                        "type": "disabled",
+                                        "elements": null,
+                                        "allValues": true
+                                    }
+                                ],
+                                "business": [
+                                    {
+                                        "type": "rule",
+                                        "values": []
+                                    }
+                                ]
+                            },
+                            "type": "",
+                            "bottomLabel": {
+                                "id": 0,
+                                "translations": [
+                                    {
+                                        "language": "fr-FR",
+                                        "value": ""
+                                    },
+                                    {
+                                        "language": "en-US",
+                                        "value": ""
+                                    },
+                                    {
+                                        "language": "it-IT",
+                                        "value": ""
+                                    }
+                                ],
+                                "actions": null,
+                                "business": null
+                            },
+                            "placeholder": {
+                                "id": 0,
+                                "translations": [
+                                    {
+                                        "language": "fr-FR",
+                                        "value": ""
+                                    },
+                                    {
+                                        "language": "en-US",
+                                        "value": ""
+                                    },
+                                    {
+                                        "language": "it-IT",
+                                        "value": ""
+                                    }
+                                ],
+                                "actions": null,
+                                "business": null
+                            },
+                            "elements": null,
+                            "values": [],
+                            "actions": null,
+                            "business": null
+                        }
+                    ],
+                    "values": [],
+                    "actions": null,
+                    "business": null
+                }
+            ],
+            "actions": null,
+            "business": null
+        },
+        {
+            "id": 7,
+            "title": {
+                "id": 0,
+                "translations": [
+                    {
+                        "language": "fr-FR",
+                        "value": "Auteur(s) du fait"
+                    },
+                    {
+                        "language": "en-US",
+                        "value": "Author (s) of the fact"
+                    },
+                    {
+                        "language": "it-IT",
+                        "value": "Autore/i del fatto"
+                    }
+                ],
+                "actions": null,
+                "business": null
+            },
+            "required": true,
+            "orderId": 7,
+            "topLabel": {
+                "id": 0,
+                "translations": [
+                    {
+                        "language": "fr-FR",
+                        "value": ""
+                    },
+                    {
+                        "language": "en-US",
+                        "value": ""
+                    },
+                    {
+                        "language": "it-IT",
+                        "value": ""
+                    }
+                ],
+                "actions": null,
+                "business": null
+            },
+            "bottomLabel": {
+                "id": 0,
+                "translations": [
+                    {
+                        "language": "fr-FR",
+                        "value": ""
+                    },
+                    {
+                        "language": "en-US",
+                        "value": ""
+                    },
+                    {
+                        "language": "it-IT",
+                        "value": ""
+                    }
+                ],
+                "actions": null,
+                "business": null
+            },
+            "elements": [
+                {
+                    "id": 0,
+                    "orderId": 0,
+                    "topLabel": {
+                        "id": 0,
+                        "translations": [
+                            {
+                                "language": "fr-FR",
+                                "value": ""
+                            },
+                            {
+                                "language": "en-US",
+                                "value": ""
+                            },
+                            {
+                                "language": "it-IT",
+                                "value": ""
+                            }
+                        ],
+                        "actions": [
+                            {
+                                "type": "hide",
+                                "elements": null,
+                                "allValues": true
+                            },
+                            {
+                                "type": "show",
+                                "elements": null,
+                                "allValues": true
+                            },
+                            {
+                                "type": "disabled",
+                                "elements": null,
+                                "allValues": true
+                            }
+                        ],
+                        "business": [
+                            {
+                                "type": "rule",
+                                "values": []
+                            }
+                        ]
+                    },
+                    "type": "TEXT",
+                    "bottomLabel": {
+                        "id": 0,
+                        "translations": [
+                            {
+                                "language": "fr-FR",
+                                "value": ""
+                            },
+                            {
+                                "language": "en-US",
+                                "value": ""
+                            },
+                            {
+                                "language": "it-IT",
+                                "value": ""
+                            }
+                        ],
+                        "actions": null,
+                        "business": null
+                    },
+                    "placeholder": {
+                        "id": 0,
+                        "translations": [
+                            {
+                                "language": "fr-FR",
+                                "value": "Indiquez les données personnelles si elles sont connues et, à défaut, tout autre élément permettant l'identification."
+                            },
+                            {
+                                "language": "en-US",
+                                "value": "Indicate the personal data if known and, if not, any other element suitable for identification."
+                            },
+                            {
+                                "language": "it-IT",
+                                "value": "Indicare i dati anagrafici se conosciuti e, in caso contrario, ogni altro elemento idoneo all’identificazione."
+                            }
+                        ],
+                        "actions": null,
+                        "business": null
+                    },
+                    "elements": [
+                        {
+                            "id": 0,
+                            "orderId": 0,
+                            "topLabel": {
+                                "id": 0,
+                                "translations": [
+                                    {
+                                        "language": "fr-FR",
+                                        "value": ""
+                                    },
+                                    {
+                                        "language": "en-US",
+                                        "value": ""
+                                    },
+                                    {
+                                        "language": "it-IT",
+                                        "value": ""
+                                    }
+                                ],
+                                "actions": [
+                                    {
+                                        "type": "hide",
+                                        "elements": null,
+                                        "allValues": true
+                                    },
+                                    {
+                                        "type": "show",
+                                        "elements": null,
+                                        "allValues": true
+                                    },
+                                    {
+                                        "type": "disabled",
+                                        "elements": null,
+                                        "allValues": true
+                                    }
+                                ],
+                                "business": [
+                                    {
+                                        "type": "rule",
+                                        "values": []
+                                    }
+                                ]
+                            },
+                            "type": "",
+                            "bottomLabel": {
+                                "id": 0,
+                                "translations": [
+                                    {
+                                        "language": "fr-FR",
+                                        "value": ""
+                                    },
+                                    {
+                                        "language": "en-US",
+                                        "value": ""
+                                    },
+                                    {
+                                        "language": "it-IT",
+                                        "value": ""
+                                    }
+                                ],
+                                "actions": null,
+                                "business": null
+                            },
+                            "placeholder": {
+                                "id": 0,
+                                "translations": [
+                                    {
+                                        "language": "fr-FR",
+                                        "value": ""
+                                    },
+                                    {
+                                        "language": "en-US",
+                                        "value": ""
+                                    },
+                                    {
+                                        "language": "it-IT",
+                                        "value": ""
+                                    }
+                                ],
+                                "actions": null,
+                                "business": null
+                            },
+                            "elements": null,
+                            "values": [],
+                            "actions": null,
+                            "business": null
+                        }
+                    ],
+                    "values": [],
+                    "actions": null,
+                    "business": null
+                }
+            ],
+            "actions": null,
+            "business": null
+        },
+        {
+            "id": 8,
+            "title": {
+                "id": 0,
+                "translations": [
+                    {
+                        "language": "fr-FR",
+                        "value": "Tout autre sujet conscient du fait et/ou capable de le signaler"
+                    },
+                    {
+                        "language": "en-US",
+                        "value": "Any other subjects aware of the fact and / or able to report on it"
+                    },
+                    {
+                        "language": "it-IT",
+                        "value": "Altri eventuali soggetti a conoscenza del fatto e/o in grado di riferire sul medesimo"
+                    }
+                ],
+                "actions": null,
+                "business": null
+            },
+            "required": true,
+            "orderId": 8,
+            "topLabel": {
+                "id": 0,
+                "translations": [
+                    {
+                        "language": "fr-FR",
+                        "value": ""
+                    },
+                    {
+                        "language": "en-US",
+                        "value": ""
+                    },
+                    {
+                        "language": "it-IT",
+                        "value": ""
+                    }
+                ],
+                "actions": null,
+                "business": null
+            },
+            "bottomLabel": {
+                "id": 0,
+                "translations": [
+                    {
+                        "language": "fr-FR",
+                        "value": ""
+                    },
+                    {
+                        "language": "en-US",
+                        "value": ""
+                    },
+                    {
+                        "language": "it-IT",
+                        "value": ""
+                    }
+                ],
+                "actions": null,
+                "business": null
+            },
+            "elements": [
+                {
+                    "id": 0,
+                    "orderId": 0,
+                    "topLabel": {
+                        "id": 0,
+                        "translations": [
+                            {
+                                "language": "fr-FR",
+                                "value": ""
+                            },
+                            {
+                                "language": "en-US",
+                                "value": ""
+                            },
+                            {
+                                "language": "it-IT",
+                                "value": ""
+                            }
+                        ],
+                        "actions": [
+                            {
+                                "type": "hide",
+                                "elements": null,
+                                "allValues": true
+                            },
+                            {
+                                "type": "show",
+                                "elements": null,
+                                "allValues": true
+                            },
+                            {
+                                "type": "disabled",
+                                "elements": null,
+                                "allValues": true
+                            }
+                        ],
+                        "business": [
+                            {
+                                "type": "rule",
+                                "values": []
+                            }
+                        ]
+                    },
+                    "type": "TEXTAREA",
+                    "bottomLabel": {
+                        "id": 0,
+                        "translations": [
+                            {
+                                "language": "fr-FR",
+                                "value": ""
+                            },
+                            {
+                                "language": "en-US",
+                                "value": ""
+                            },
+                            {
+                                "language": "it-IT",
+                                "value": ""
+                            }
+                        ],
+                        "actions": null,
+                        "business": null
+                    },
+                    "placeholder": {
+                        "id": 0,
+                        "translations": [
+                            {
+                                "language": "fr-FR",
+                                "value": "Indiquer les données personnelles si elles sont connues et, à défaut, tout autre élément propre à l'identification"
+                            },
+                            {
+                                "language": "en-US",
+                                "value": "Indicate the personal data if known and, if not, any other element suitable for identification"
+                            },
+                            {
+                                "language": "it-IT",
+                                "value": "Indicare i dati anagrafici se conosciuti e, in caso contrario, ogni altro elemento idoneo all’identificazione"
+                            }
+                        ],
+                        "actions": null,
+                        "business": null
+                    },
+                    "elements": [
+                        {
+                            "id": 0,
+                            "orderId": 0,
+                            "topLabel": {
+                                "id": 0,
+                                "translations": [
+                                    {
+                                        "language": "fr-FR",
+                                        "value": ""
+                                    },
+                                    {
+                                        "language": "en-US",
+                                        "value": ""
+                                    },
+                                    {
+                                        "language": "it-IT",
+                                        "value": ""
+                                    }
+                                ],
+                                "actions": [
+                                    {
+                                        "type": "hide",
+                                        "elements": null,
+                                        "allValues": true
+                                    },
+                                    {
+                                        "type": "show",
+                                        "elements": null,
+                                        "allValues": true
+                                    },
+                                    {
+                                        "type": "disabled",
+                                        "elements": null,
+                                        "allValues": true
+                                    }
+                                ],
+                                "business": [
+                                    {
+                                        "type": "rule",
+                                        "values": []
+                                    }
+                                ]
+                            },
+                            "type": "",
+                            "bottomLabel": {
+                                "id": 0,
+                                "translations": [
+                                    {
+                                        "language": "fr-FR",
+                                        "value": ""
+                                    },
+                                    {
+                                        "language": "en-US",
+                                        "value": ""
+                                    },
+                                    {
+                                        "language": "it-IT",
+                                        "value": ""
+                                    }
+                                ],
+                                "actions": null,
+                                "business": null
+                            },
+                            "placeholder": {
+                                "id": 0,
+                                "translations": [
+                                    {
+                                        "language": "fr-FR",
+                                        "value": ""
+                                    },
+                                    {
+                                        "language": "en-US",
+                                        "value": ""
+                                    },
+                                    {
+                                        "language": "it-IT",
+                                        "value": ""
+                                    }
+                                ],
+                                "actions": null,
+                                "business": null
+                            },
+                            "elements": null,
+                            "values": [],
+                            "actions": null,
+                            "business": null
+                        }
+                    ],
+                    "values": [],
+                    "actions": null,
+                    "business": null
+                }
+            ],
+            "actions": null,
+            "business": null
+        },
+        {
+            "id": 9,
+            "title": {
+                "id": 0,
+                "translations": [
+                    {
+                        "language": "fr-FR",
+                        "value": "Toute pièce jointe à l'appui du rapport"
+                    },
+                    {
+                        "language": "en-US",
+                        "value": "Any attachments supporting the report"
+                    },
+                    {
+                        "language": "it-IT",
+                        "value": "Eventuali allegati a sostegno della segnalazione"
+                    }
+                ],
+                "actions": null,
+                "business": null
+            },
+            "required": true,
+            "orderId": 9,
+            "topLabel": {
+                "id": 0,
+                "translations": [
+                    {
+                        "language": "fr-FR",
+                        "value": ""
+                    },
+                    {
+                        "language": "en-US",
+                        "value": ""
+                    },
+                    {
+                        "language": "it-IT",
+                        "value": ""
+                    }
+                ],
+                "actions": null,
+                "business": null
+            },
+            "bottomLabel": {
+                "id": 0,
+                "translations": [
+                    {
+                        "language": "fr-FR",
+                        "value": ""
+                    },
+                    {
+                        "language": "en-US",
+                        "value": ""
+                    },
+                    {
+                        "language": "it-IT",
+                        "value": ""
+                    }
+                ],
+                "actions": null,
+                "business": null
+            },
+            "elements": [
+                {
+                    "id": 0,
+                    "orderId": 0,
+                    "topLabel": {
+                        "id": 0,
+                        "translations": [
+                            {
+                                "language": "fr-FR",
+                                "value": ""
+                            },
+                            {
+                                "language": "en-US",
+                                "value": ""
+                            },
+                            {
+                                "language": "it-IT",
+                                "value": ""
+                            }
+                        ],
+                        "actions": [
+                            {
+                                "type": "hide",
+                                "elements": null,
+                                "allValues": true
+                            },
+                            {
+                                "type": "show",
+                                "elements": null,
+                                "allValues": true
+                            },
+                            {
+                                "type": "disabled",
+                                "elements": null,
+                                "allValues": true
+                            }
+                        ],
+                        "business": [
+                            {
+                                "type": "rule",
+                                "values": []
+                            }
+                        ]
+                    },
+                    "type": "FILE",
+                    "bottomLabel": {
+                        "id": 0,
+                        "translations": [
+                            {
+                                "language": "fr-FR",
+                                "value": ""
+                            },
+                            {
+                                "language": "en-US",
+                                "value": ""
+                            },
+                            {
+                                "language": "it-IT",
+                                "value": ""
+                            }
+                        ],
+                        "actions": null,
+                        "business": null
+                    },
+                    "placeholder": {
+                        "id": 0,
+                        "translations": [
+                            {
+                                "language": "fr-FR",
+                                "value": "[Sei invitato ad allegare qualsiasi documentazione o evidenza che possa essere utile a sostenere le tue dichiarazioni]"
+                            },
+                            {
+                                "language": "en-US",
+                                "value": "[Sei invitato ad allegare qualsiasi documentazione o evidenza che possa essere utile a sostenere le tue dichiarazioni]"
+                            },
+                            {
+                                "language": "it-IT",
+                                "value": "[Sei invitato ad allegare qualsiasi documentazione o evidenza che possa essere utile a sostenere le tue dichiarazioni]"
+                            }
+                        ],
+                        "actions": null,
+                        "business": null
+                    },
+                    "elements": [
+                        {
+                            "id": 0,
+                            "orderId": 0,
+                            "topLabel": {
+                                "id": 0,
+                                "translations": [
+                                    {
+                                        "language": "fr-FR",
+                                        "value": ""
+                                    },
+                                    {
+                                        "language": "en-US",
+                                        "value": ""
+                                    },
+                                    {
+                                        "language": "it-IT",
+                                        "value": ""
+                                    }
+                                ],
+                                "actions": [
+                                    {
+                                        "type": "hide",
+                                        "elements": null,
+                                        "allValues": true
+                                    },
+                                    {
+                                        "type": "show",
+                                        "elements": null,
+                                        "allValues": true
+                                    },
+                                    {
+                                        "type": "disabled",
+                                        "elements": null,
+                                        "allValues": true
+                                    }
+                                ],
+                                "business": [
+                                    {
+                                        "type": "rule",
+                                        "values": []
+                                    }
+                                ]
+                            },
+                            "type": "",
+                            "bottomLabel": {
+                                "id": 0,
+                                "translations": [
+                                    {
+                                        "language": "fr-FR",
+                                        "value": ""
+                                    },
+                                    {
+                                        "language": "en-US",
+                                        "value": ""
+                                    },
+                                    {
+                                        "language": "it-IT",
+                                        "value": ""
+                                    }
+                                ],
+                                "actions": null,
+                                "business": null
+                            },
+                            "placeholder": {
+                                "id": 0,
+                                "translations": [
+                                    {
+                                        "language": "fr-FR",
+                                        "value": ""
+                                    },
+                                    {
+                                        "language": "en-US",
+                                        "value": ""
+                                    },
+                                    {
+                                        "language": "it-IT",
+                                        "value": ""
+                                    }
+                                ],
+                                "actions": null,
+                                "business": null
+                            },
+                            "elements": null,
+                            "values": [],
+                            "actions": null,
+                            "business": null
+                        }
+                    ],
+                    "values": [],
+                    "actions": null,
+                    "business": null
+                }
+            ],
+            "actions": null,
+            "business": null
+        }
+    ]
+}

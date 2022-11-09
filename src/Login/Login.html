@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="format-detection" content="telephone=no">
+  <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport">
+  <title>Software segnalazioni illeciti - Whistleblowing</title>
+  <link rel="stylesheet" href="../stileshyt/stile.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js"
+    integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk"
+    crossorigin="anonymous"></script>
+  <script type="module" src="../moduliLogin/moduloLogin.js"></script>
+</head>
+
+<body style="background-color: white;">
+  <div class="pad-480">
+    <div class="app-header-top container">
+      <div class="app-brand-wrapper">
+        <a href=""></a>
+        <div class="img-cover"></div>
+      </div>
+    </div>
+
+    <div class="barra-menu">
+      <div class="menu container">
+        <ul>
+          <li><a href="../pages/Index.html">Home</a></li>
+          <li><a href="../pages/About.html">Cos'è il Whistleblowing</a></li>
+          <li><a href="../pages/More.html">Normativa</a></li>
+          <li><a href="../pages/Faq.html">Faq</a></li>
+          <li><a href="./Login.html">Login Admin</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="container">
+      <div>
+        <div class="menu2 container">
+          <ul>
+            <li><a href="">Configurazione pagina segnalazione</a></li>
+            <!-- <li><a href="">Configurazione tema</a></li>
+            <li><a href="">Gestione contenuti</a></li>
+            <li><a href="">Configurazione utente</a></li> -->
+          </ul>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="container" id="corpo"></div>
+    <div class="container"><br>
+      <button type="button" id="btnAggiungi" class="btn btn-primary">Aggiungi sezione</button>
+    </div>
+  </div>
+
+  <script>
+    // let url = "../json/file.json"
+
+    // fetch(url)
+    //     .then(response => response.json())
+    //     .then(json => {
+    //         prova = json;
+    //         console.log('prova ', prova);
+    //         for (i=0; i<prova.sections.length;i++){
+    //             console.log(i, ' ', prova.sections[i]);
+    //             ciclo(i);
+    //         }
+    //     })
+
+    // function ciclo(i) {
+    //     let div = document.getElementById('corpo');
+    //     let elemento = document.createElement('p');
+    //     let paragrafo = document.createTextNode("prova "+ (i+1));
+    //     elemento.appendChild(paragrafo);
+    //     div.appendChild(elemento);            
+    // }
+
+    let numeroSezioni = 1;
+    let radioList = ['radiogroup', 'text', 'textarea', 'checkbox', 'file', 'currency', 'number', 'combo', 'data'];
+    let idOption = 1;
+    let idCheckTitle = 1;
+    let idFooter = 1;
+    let idPlaceholder = 1;
+    let idTextTitle = 1;
+    let idElementDescription = 1;
+    let numElement = 1
+
+  </script>
+</body>
+
+</html>
