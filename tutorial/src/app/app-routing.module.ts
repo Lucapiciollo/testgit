@@ -1,13 +1,24 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { HomeComponent } from './page/home/home.component';
 
 const routes: Routes = [
   {
   path: "page/home",
   loadChildren: () => import('../app/page/home/home.module').then(module => module.HomeModule),
-} 
-  
+},{
+  path: "page/whistle",
+  loadChildren: () => import('../app/page/whistle/whistle.module').then(module => module.WhistleModule),
+},{
+  path: "page/normativa",
+  loadChildren: () => import('../app/page/normativa/normativa.module').then(module => module.NormativaModule),
+},{
+  path: "page/faq",
+  loadChildren: () => import('../app/page/faq/faq.module').then(module => module.FaqModule),
+},{
+  path: "page/admin",
+  loadChildren: () => import('../app/page/admin/admin.module').then(module => module.AdminModule),
+}
+
 ];
 
 @NgModule({
