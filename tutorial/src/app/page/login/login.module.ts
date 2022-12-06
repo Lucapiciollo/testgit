@@ -14,7 +14,7 @@ import { MatButtonModule } from '@angular/material/button';
     LoginRoutingModule,
     CommonModule,
     SharedModule,
-    MatButtonModule
+    MatButtonModule,
   ]
 })
 export class LoginModule { }
