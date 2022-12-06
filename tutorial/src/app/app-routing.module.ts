@@ -15,8 +15,8 @@ const routes: Routes = [
   path: "page/faq",
   loadChildren: () => import('../app/page/faq/faq.module').then(module => module.FaqModule),
 },{
-  path: "page/admin",
-  loadChildren: () => import('../app/page/admin/admin.module').then(module => module.AdminModule),
+  path: "page/login",
+  loadChildren: () => import('../app/page/login/login.module').then(module => module.LoginModule),
 }
 
 ];
